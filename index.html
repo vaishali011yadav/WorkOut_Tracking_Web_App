@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Tracking App</title>
+    <!-- Link your CSS and JavaScript files here -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <h1>Welcome to the Workout Tracking App</h1>
+    <p>This is a basic web application created for demonstration purposes.</p>
+    <header>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="path/to/company-logo.png" alt="Company Logo">
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Goals</a></li>
+                    <li><a href="#">Progress</a></li>
+                    <li><a href="#">Workout Tracking</a></li>
+                </ul>
+            </div>
+        </header>
+    </header>
+    <div class="dashboard-container">
+        <div class="goal-section">
+            <h2>Goals</h2>
+            <!-- Goal section content will be added here -->
+        </div>
+        <div class="progress-section">
+            <h2>Progress</h2>
+            <!-- Progress section content will be added here -->
+        </div>
+        <div class="workout-section">
+            <h2>Workout Tracking</h2>
+            <!-- Workout section content will be added here -->
+        </div>
+        <form>
+            <label for="exercise-name">Exercise Name:</label>
+            <input type="text" id="exercise-name" name="exercise-name" required>
+            <label for="exercise-intensity">Exercise Intensity:</label>
+            <select id="exercise-intensity" name="exercise-intensity" required>
+                <option value="">-- Select Intensity --</option>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+            <label for="exercise-date">Exercise Date:</label>
+            <input type="date" id="exercise-date" name="exercise-date" required>
+            <button type="submit">Add Exercise</button>
+        </form>
+</body>
+
+</html>
